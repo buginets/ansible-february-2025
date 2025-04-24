@@ -1,0 +1,7 @@
+- hosts: _Name_world
+  become: yes
+  roles: 
+    - apache
+    - php
+    - wordpress
+    - db
